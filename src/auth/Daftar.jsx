@@ -5,7 +5,10 @@ import ContentAuth from '../components/ui/ContentAuth';
 
 const Daftar = () => {
   return (
-    <AuthLayout logo={<img src='/logo.png' alt='Logo' className='h-12' />}>
+    <AuthLayout
+      backgroundImage={true}
+      logo={<img src='/logo.png' alt='Logo' className='h-12' />}
+    >
       <h2 className='text-2xl font-bold text-center'>Daftar</h2>
       <p className='text-center text-gray-300 mb-6'>Selamat datang kembali!</p>
       <div className='space-y-4'>

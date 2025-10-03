@@ -4,7 +4,10 @@ import AuthLayout from '../components/ui/AuthLayout';
 import ContentAuth from '../components/ui/ContentAuth';
 const Login = () => {
   return (
-    <AuthLayout logo={<img src='/logo.png' alt='Logo' className='h-12' />}>
+    <AuthLayout
+      backgroundImage={false}
+      logo={<img src='/logo.png' alt='Logo' className='h-12' />}
+    >
       <h2 className='text-2xl font-bold text-center'>Masuk</h2>
       <p className='text-center text-gray-300 mb-6'>Selamat datang kembali!</p>
       <div className='space-y-4'>
