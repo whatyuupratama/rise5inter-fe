@@ -16,7 +16,7 @@ const Navbar = () => {
           imagemobile={item.imagemobile}
           alt={item.alt}
         />
-        <Profile url='/' />
+        <Profile />
       </nav>
     </div>
   );

@@ -12,7 +12,7 @@ const ContentAuth = ({ mode = 'login' }) => {
       >
         {isLogin ? (
           <>
-            <a href='/Registrasi' className='hover:underline'>
+            <a href='/Register' className='hover:underline'>
               Belum punya akun? <span className='text-blue-400'>Daftar</span>
             </a>
             <a href='#' className='hover:underline'>
@@ -35,7 +35,7 @@ const ContentAuth = ({ mode = 'login' }) => {
         <span className='px-2 text-gray-400 text-sm'>Atau</span>
       </div>
       <a
-        href={isLogin ? '/Registrasi' : '/'}
+        href={isLogin ? '/Register' : '/'}
         className='w-full py-3 border border-gray-500 rounded-full flex items-center justify-center gap-2 hover:bg-gray-800 transition'
       >
         <img src='/icongoogle.png' alt='Google' className='h-5 w-5' />
