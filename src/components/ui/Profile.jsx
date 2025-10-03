@@ -1,8 +1,9 @@
 import React from 'react';
 import { IoIosArrowDown } from 'react-icons/io';
 import { Item } from '../../api/data';
-
+import { useNavigate } from 'react-router-dom';
 export default function Profile() {
+  const navigate = useNavigate();
   return (
     <div className='relative group'>
       <button className='flex items-center gap-2'>
@@ -19,7 +20,7 @@ export default function Profile() {
             className='p-4 border-b border-gray-700 cursor-pointer'
             onClick={() => {
               if (item.title === 'Keluar') {
-                window.location.href = '/';
+                navigate('/');
               }
             }}
           >
