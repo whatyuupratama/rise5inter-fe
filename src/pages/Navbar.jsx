@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SideKiriNav from '../components/ui/sideKiriNav';
+import SideKiriNav from '../components/ui/SideKiriNav';
 import Profile from '../components/ui/Profile';
 const Navbar = () => {
   const item = {
