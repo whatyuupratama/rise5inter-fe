@@ -10,18 +10,15 @@ const Section = () => {
       style={{ backgroundImage: `url('${heroData.backgroundImage}')` }}
     >
       <div className='absolute inset-0 bg-gradient-to-t from-[#141414] via-black/60 to-transparent' />
-
       <div className='relative z-10 w-full px-6 md:px-16 pb-8 md:pb-16 lg:pb-24 mx-auto'>
         <div className='max-w-xl'>
           <h1 className='text-2xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4'>
             {heroData.title}
           </h1>
-
           <p className='text-sm md:text-base lg:text-lg text-gray-200 mb-4 md:mb-6 line-clamp-2 md:line-clamp-none leading-relaxed'>
             {heroData.description}
           </p>
         </div>
-
         <div className='flex items-center justify-between gap-4'>
           <div className='flex items-center gap-2 md:gap-3 flex-wrap'>
             <HeroButton variant='primary'>

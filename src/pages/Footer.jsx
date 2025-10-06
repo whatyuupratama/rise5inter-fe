@@ -24,13 +24,11 @@ const Footer = () => {
               ))}
             </div>
           </div>
-
           <div className='flex flex-col'>
             <h3 className='text-white font-medium text-lg mb-6'>Bantuan</h3>
             <LinkColumn links={helpLinks} />
           </div>
         </div>
-
         <div className='lg:hidden space-y-8'>
           <div>
             <img src='/logo.png' alt='Chill Logo' className='mb-4 h-8' />
@@ -38,13 +36,11 @@ const Footer = () => {
               ©{currentYear} Chill All Rights Reserved.
             </p>
           </div>
-
           <div>
             <div className='flex items-center justify-between py-3'>
               <h3 className='text-white font-medium text-lg'>Genre</h3>
               <ChevronIcon />
             </div>
-
             <div className='flex items-center justify-between py-3'>
               <h3 className='text-white font-medium text-lg'>Bantuan</h3>
               <ChevronIcon />
